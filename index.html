@@ -11,11 +11,11 @@
 <body>
     <div class="contener">
         <div class="left">
-            
+
             <div class="home p1 m1 bg-gray b-radius font-design sticky-top ">
                 <img class="invert close " src="asetsnew/close.svg" alt="ll">
-                <img class="invert " src="asetsnew/slogo.svg" alt="slogo">
-                
+                <img class="invert slogo " src="asetsnew/slogo.svg" alt="slogo">
+
                 <ul>
                     <li><img class="invert" src="asetsnew/home.svg" alt="home">Home</li>
                     <li><img class="invert c-gray" src="asetsnew/search.svg" alt="search">Search</li>
@@ -25,11 +25,11 @@
                 <div class="lib c-gray">
                     <img class="invert-gray" src="asetsnew/library.svg" alt="None">
                     <h4>Your library</h4>
-                    <img class="invert-gray" src="asetsnew/plus.svg" alt="plus">
+                    <img class="invert-gray plus" src="asetsnew/plus.svg" alt="plus">
                 </div>
                 <div class="songList">
                     <ul>
-                    
+
                     </ul>
                 </div>
                 <div class="faqs">
@@ -62,61 +62,69 @@
                     <p>show all</p>
                 </div>
                 <div class="cards">
-                    <div class="card m1 bg-gray p1 b-radius ">
+                    <div data-folder="Morning" class="card m1 bg-gray p1 b-radius ">
                         <div class="play">
                             <img src="asetsnew/play.svg" alt="not founc">
                         </div>
                         <img src="asetsnew/album.jpg" alt="not found">
-                        <h4>Sleep</h4>
-                        <p class="c-gray">Gentle Ambient piano to help you fall asleep.</p>
+                        <h4>Morning</h4>
+                        <p class="c-gray">This songs you play in morning</p>
                     </div>
-                    <div class="card m1 bg-gray p1 b-radius">
+                    <div data-folder="Travel" class="card m1 bg-gray p1 b-radius">
                         <div class="play">
                             <img src="asetsnew/play.svg" alt="not founc">
                         </div>
                         <img src="asetsnew/album.jpg" alt="not found">
-                        <h4>Sleep</h4>
-                        <p class="c-gray">Gentle Ambient piano to help you fall asleep.</p>
+                        <h4>Travel</h4>
+                        <p class="c-gray">That songs makes you jurney happy</p>
                     </div>
-                    <div class="card m1 bg-gray p1 b-radius">
+                    <div data-folder="Sleep" class="card m1 bg-gray p1 b-radius ">
                         <div class="play">
                             <img src="asetsnew/play.svg" alt="not founc">
                         </div>
                         <img src="asetsnew/album.jpg" alt="not found">
                         <h4>Sleep</h4>
-                        <p class="c-gray">Gentle Ambient piano to help you fall asleep.</p>
+                        <p class="c-gray">sweet drems to make sure</p>
                     </div>
-                    <div class="card m1 bg-gray p1 b-radius">
+                    <div data-folder="Workout" class="card m1 bg-gray p1 b-radius ">
                         <div class="play">
                             <img src="asetsnew/play.svg" alt="not founc">
                         </div>
                         <img src="asetsnew/album.jpg" alt="not found">
-                        <h4>Sleep</h4>
-                        <p class="c-gray">Gentle Ambient piano to help you fall asleep.</p>
+                        <h4>Workout</h4>
+                        <p class="c-gray">This motivation songs will helps you</p>
                     </div>
-                    <div class="card m1 bg-gray p1 b-radius">
+                    <div data-folder="Arijit" class="card m1 bg-gray p1 b-radius ">
                         <div class="play">
                             <img src="asetsnew/play.svg" alt="not founc">
                         </div>
                         <img src="asetsnew/album.jpg" alt="not found">
-                        <h4>Sleep</h4>
-                        <p class="c-gray">Gentle Ambient piano to help you fall asleep.</p>
+                        <h4>Arijit</h4>
+                        <p class="c-gray">songs from Arijit singh</p>
                     </div>
-                    <div class="card m1 bg-gray p1 b-radius">
+                    <div data-folder="Bprak" class="card m1 bg-gray p1 b-radius ">
                         <div class="play">
                             <img src="asetsnew/play.svg" alt="not founc">
                         </div>
                         <img src="asetsnew/album.jpg" alt="not found">
-                        <h4>Sleep</h4>
-                        <p class="c-gray">Gentle Ambient piano to help you fall asleep.</p>
+                        <h4>Bprak</h4>
+                        <p class="c-gray">songs from bprak</p>
                     </div>
-                    <div class="card m1 bg-gray p1 b-radius">
+                    <div data-folder="Toney" class="card m1 bg-gray p1 b-radius ">
                         <div class="play">
                             <img src="asetsnew/play.svg" alt="not founc">
                         </div>
                         <img src="asetsnew/album.jpg" alt="not found">
-                        <h4>Sleep</h4>
-                        <p class="c-gray">Gentle Ambient piano to help you fall asleep.</p>
+                        <h4>Toney</h4>
+                        <p class="c-gray">songs from toney kakkad</p>
+                    </div>
+                    <div data-folder="Fukra-insan" class="card m1 bg-gray p1 b-radius ">
+                        <div class="play">
+                            <img src="asetsnew/play.svg" alt="not founc">
+                        </div>
+                        <img src="asetsnew/album.jpg" alt="not found">
+                        <h4>Fukra-insan</h4>
+                        <p class="c-gray">songs from Fukra insan</p>
                     </div>
                 </div>
             </div>
@@ -126,13 +134,20 @@
                 </div>
 
                 <div class="playbarin">
-                    <img id="previus" src="asetsnew/prev.svg" alt="">
-                    <img id="play" src="asetsnew/splay.svg" alt="">
-                    <img id="next" src="asetsnew/next.svg" alt="">
+                    <img class="previus" src="asetsnew/prev.svg" alt="">
+                    <img class="splay" src="asetsnew/splay.svg" alt="">
+                    <img class="next" src="asetsnew/next.svg" alt="">
                 </div>
+                <div class="timewal">
+                    <div class="songtime">
 
-                <div class="songtime">
-
+                    </div>
+                    <div class="volume">
+                        <img class="invert" src="asetsnew/volume.svg" alt="">
+                        <div class="range">
+                            <input type="range" name="volume" id="range">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="seekbar">
